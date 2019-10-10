@@ -20,6 +20,8 @@ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 
 yarn add node-fetch
 
+yarn add axios
+
 ++++++++++++++++++++++++++++
 Chrome extension
 
