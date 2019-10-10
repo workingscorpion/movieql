@@ -6,12 +6,14 @@ type Movie {
   runtime: Int!
   language: String
   medium_cover_image: String!
+  genres: [String]!
+  description_intro: String!
 }
 
 type Query {
   movies(limit: Int!, rating: Int): [Movie]!
-  movie(id: Int!): Movie!
-  suggestion(id: Int!): [Movie]!
+  movie(id: Int!): Movie
+  suggestions(id: Int!): [Movie]!
   # movie(id: Int!): Movie
   #String 뒤의 !는 isRequire을 의미
 }

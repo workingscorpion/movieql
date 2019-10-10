@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "https://yts.lt/api/v2/list_movies.json?";
-const LIST_MOVIES_URL = `${BASE_URL}list_moview.json`;
+const BASE_URL = "https://yts.lt/api/v2/";
+const LIST_MOVIES_URL = `${BASE_URL}list_movies.json`;
 const MOVIE_DETAILS_URL = `${BASE_URL}movie_details.json`;
 const MOVIE_SUGGESTIONS_URL = `${BASE_URL}movie_suggestions.json`;
 
